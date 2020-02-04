@@ -1,11 +1,11 @@
 # Site settings
 author: Ben Altman
-title: 
+title: Getting There From Here
 header-img: img/home-bg.png
 email: altmanguitar@gmail.com
 copyright_name: Ben Altman
 description: > # this means to ignore newlines until "baseurl:"
-  
+  One step at a time
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ben-altman
