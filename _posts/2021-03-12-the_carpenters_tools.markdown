@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Carpenter's Tools"
-date:       2021-03-12 20:09:05 +0000
+date:       2021-03-12 15:09:06 -0500
 permalink:  the_carpenters_tools
 ---
 
@@ -12,10 +12,11 @@ The carpenter has a wealth of different tools to complete a project, and must kn
 
 The project itself allows the user to search groupmuse.com. Groupmuse is an organization that allows musicians and hosts to come together for intimate, salon-style house concerts. Over the past year, they have switched to streaming as concert halls have closed and home gatherings were not allowed. It has been a tough year for gigging musicians, but my scrappy friends and colleagues adapted with amazing speed to this new way of doing things. My gem scrapes groupmuse.com, and then allows the user to search for concerts by instrumentation or composer. One can also see a list of all upcoming concerts. Once the parameters, if any, are applied, the user selects a concert to see more information.
 
-Since this was my first build from the ground up, I tried to keep everything simple but functional. There are only three classes: 
-Concert 
-Scraper
-Command line interface
+Since this was my first build from the ground up, I tried to keep everything simple but functional. There are only three classes:
+
+1. Concert
+2. Scraper
+3. Command line interface
 
 When making the concerts I noticed that some descriptions gave no composers or ensemble types. I had a choice to make, either to create concert objects from hashes with mass assignment or simply to leave those attributes nil. I opted for the latter. When displaying the concert details it allowed for a more uniform presentation, and frankly the display was easier to code.
 
